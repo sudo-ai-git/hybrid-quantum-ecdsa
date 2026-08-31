@@ -1,0 +1,27 @@
+# Phase 2: Real Syndrome Extraction
+
+# Core quantum/crypto
+stim>=1.16.0
+pymatching>=2.4.0
+cryptography>=41.0.0
+
+# Numerics
+numpy>=1.24.0
+
+# Standard library (included)
+json
+hashlib
+datetime
+
+# Testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# Optional: GPU acceleration (Kaggle)
+# cupy>=12.0.0  # Uncomment for GPU runs
+
+# Notes:
+# - stim: surface-code circuit generation + detector sampling
+# - pymatching: decoder for syndrome -> logical error recovery
+# - cryptography: ECDSA key derivation + signing
+# - numpy: entropy generation + array operations
